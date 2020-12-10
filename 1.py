@@ -1,9 +1,22 @@
-import sys; print(sys.executable)
-C:\Users\habib\AppData\Local\Programs\Python\Python38-32> python -m pip install numpy
 
 
 input=open("Input.txt","r")
+lines=input.readlines()
+
+print (lines[1][2])
 
 
-grid = np.loadtxt("Input.txt", deliminter=",", dtype=string, skiprows=1)
-print(grid)
+x=0
+y=0
+
+treecounter=0
+
+for line in lines:
+   x=+1
+   y=+3
+   if lines[x][y] == '#':
+      treecounter=+1
+   else:
+      ""
+    
+print(treecounter)

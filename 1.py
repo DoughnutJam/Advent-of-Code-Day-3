@@ -22,3 +22,4 @@ for line in lines:
       
 print(treecounter)
 print(notreecounter)
+
